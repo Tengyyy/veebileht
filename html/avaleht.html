@@ -4,8 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Autod</title>
-        <link rel="stylesheet" type="text/css" href="styles/avaleht.css">
+        <title>Avaleht - auto25.ee</title>
+        <link rel="stylesheet" type="text/css" href="../styles/avaleht.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     </head>
@@ -15,19 +15,19 @@
 
             <div id="menu_button" class="fas fa-bars"></div>
 
-            <a href="#home" class="logo">auto<span>25</span>.ee</a>
+            <a href="#home" id="header-logo">auto<span>25</span>.ee</a>
 
             <nav class="navbar">
                 <a href="kuulutused.html">Kuulutused</a>
-                <a href="#">Teenused</a>
-                <a href="#">Meist</a>
+                <a href="teenused.html">Teenused</a>
+                <a href="meist.html">Meist</a>
             </nav>
         </header>
 
 
         <section class="home" id="home">
             <h1>Leia unistuste auto</h1>
-            <img src="resources/images/home-img.png" alt="autod">
+            <img src="../resources/images/home-img.png" alt="autod">
             <a href="#" class="button main-button">Vaata kõiki sõidukeid</a>
 
         </section>
@@ -42,7 +42,7 @@
                 <div class="swiper-wrapper">
 
                     <div class="swiper-slide box">
-                        <img src="resources/images/vehicle-1.png" alt="auto">
+                        <img src="../resources/images/vehicle-1.png" alt="auto">
                         <div class="content">
                             <h3>Audio Q7</h3>
                             <div class="price"><span>Hind: </span> 55 000</div>
@@ -62,7 +62,7 @@
                     </div>
 
                     <div class="swiper-slide box">
-                        <img src="resources/images/vehicle-2.png" alt="auto">
+                        <img src="../resources/images/vehicle-2.png" alt="auto">
                         <div class="content">
                             <h3>Audio Q7</h3>
                             <div class="price"><span>Hind: </span> 55 000</div>
@@ -82,7 +82,7 @@
                     </div>
 
                     <div class="swiper-slide box">
-                        <img src="resources/images/vehicle-3.png" alt="auto">
+                        <img src="../resources/images/vehicle-3.png" alt="auto">
                         <div class="content">
                             <h3>Audio Q7</h3>
                             <div class="price"><span>Hind: </span> 55 000</div>
@@ -102,7 +102,7 @@
                     </div>
 
                     <div class="swiper-slide box">
-                        <img src="resources/images/sally.png" alt="auto">
+                        <img src="../resources/images/sally.png" alt="auto">
                         <div class="content">
                             <h3>Audio Q7</h3>
                             <div class="price"><span>Hind: </span> 55 000</div>
@@ -122,7 +122,7 @@
                     </div>
 
                     <div class="swiper-slide box">
-                        <img src="resources/images/vehicle-5.png" alt="auto">
+                        <img src="../resources/images/vehicle-5.png" alt="auto">
                         <div class="content">
                             <h3>Audio Q7</h3>
                             <div class="price"><span>Hind: </span> 55 000</div>
@@ -142,7 +142,7 @@
                     </div>
 
                     <div class="swiper-slide box">
-                        <img src="resources/images/vehicle-6.png" alt="auto">
+                        <img src="../resources/images/vehicle-6.png" alt="auto">
                         <div class="content">
                             <h3>Audio Q7</h3>
                             <div class="price"><span>Hind: </span> 55 000</div>
@@ -162,7 +162,7 @@
                     </div>
 
                     <div class="swiper-slide box">
-                        <img src="resources/images/mcqueen.png" alt="auto">
+                        <img src="../resources/images/mcqueen.png" alt="auto">
                         <div class="content">
                             <h3>Audio Q7</h3>
                             <div class="price"><span>Hind: </span> 55 000</div>
@@ -193,7 +193,7 @@
             <h1 class="heading">Käimasolevad <span>oksjonid</span></h1>
             <div class="box-container">
                 <div class="box">
-                    <img src="resources/images/oksjon1.jpg" alt="oksjonil auto">
+                    <img src="../resources/images/oksjon1.jpg" alt="oksjonil auto">
                     <div class="sisu">
                         <h3>Mercedes-Benz S600</h3>
                         <div class="hind"><span>Hetkehind: </span> 500</div>
@@ -207,7 +207,7 @@
                 </div>
 
                 <div class="box">
-                    <img src="resources/images/oksjon2.png" alt="oksjonil auto">
+                    <img src="../resources/images/oksjon2.png" alt="oksjonil auto">
                     <div class="sisu">
                         <h3>Mercedes-Benz S600</h3>
                         <div class="hind"><span>Hetkehind: </span> 500</div>
@@ -273,39 +273,44 @@
         </section>
 
         <section class="footer">
+            <div id="ääris"></div>
             <div class="box-container">
-                <div class="box">
-                    <h3>Our branches</h3>
-                    <a href="#"> <i class="fas fa-map-marker-alt"></i> India</a>
-                    <a href="#"> <i class="fas fa-map-marker-alt"></i> France</a>
-                    <a href="#"> <i class="fas fa-map-marker-alt"></i> Italy</a>
-                    <a href="#"> <i class="fas fa-map-marker-alt"></i> Estonia</a>
-                    <a href="#"> <i class="fas fa-map-marker-alt"></i> Finland</a>
+                <div class="box" id="logo-konteiner">
+                    <a href="#home" id="footer-logo">auto<span>25</span>.ee</a>
+                    <p>Copyright © 2022 Auto25 OÜ</p>
                 </div>
 
-                <div class="box">
-                    <h3>Quick links</h3>
-                    <a href="#"> <i class="fas fa-arrow-right"></i> Home</a>
-                    <a href="#"> <i class="fas fa-arrow-right"></i> Kuulutused</a>
-                    <a href="#"> <i class="fas fa-arrow-right"></i> Teenused</a>
-                    <a href="#"> <i class="fas fa-arrow-right"></i> Meist</a>
+                <div class="box" id="lingid">
+                    <h3>Kiirlingid</h3>
+                    <div>
+                        <a href="#"> <i class="fas fa-arrow-right"></i><p>Avaleht</p> </a>
+                    </div>
+
+                    <div>
+                        <a href="#"> <i class="fas fa-arrow-right"></i><p>Kuulutused</p></a>
+                    </div>
+
+                    <div>
+                        <a href="#"> <i class="fas fa-arrow-right"></i><p>Teenused</p></a>
+                    </div>
+
+                    <div>
+                        <a href="#"> <i class="fas fa-arrow-right"></i><p>Meist</p></a>
+                    </div>
                 </div>
 
-                <div class="box">
-                    <h3>Quick links</h3>
-                    <a href="#"> <i class="fas fa-arrow-right"></i> Home</a>
-                    <a href="#"> <i class="fas fa-arrow-right"></i> Kuulutused</a>
-                    <a href="#"> <i class="fas fa-arrow-right"></i> Teenused</a>
-                    <a href="#"> <i class="fas fa-arrow-right"></i> Meist</a>
+                <div class="box" id="kontaktid">
+                    <h3>Kontakt</h3>
+                    <p> <i class="fas fa-phone"></i> +123 55 444 333</p>
+                    <p> <i class="fas fa-envelope"></i> support@auto25.ee</p>
+                    <p> <i class="fa-brands fa-facebook"></i> Auto25 Facebook</p>
+                    <p> <i class="fa-brands fa-instagram"></i> Auto25 Instagram</p>
                 </div>
 
-                <div class="box">
-                    <h3>Quick links</h3>
-                    <a href="#"> <i class="fas fa-arrow-right"></i> Home</a>
-                    <a href="#"> <i class="fas fa-arrow-right"></i> Kuulutused</a>
-                    <a href="#"> <i class="fas fa-arrow-right"></i> Teenused</a>
-                    <a href="#"> <i class="fas fa-arrow-right"></i> Meist</a>
+                <div class="box" id="github-konteiner">
+                    <a href="https://github.com/Tengyyy/veebileht" target="_blank" class="fa-brands fa-github"></a>
                 </div>
+
             </div>
 
 
@@ -324,6 +329,6 @@
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
-        <script src="js/script.js"></script>
+        <script src="../js/script.js"></script>
     </body>
 </html>

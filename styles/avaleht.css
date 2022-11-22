@@ -40,21 +40,6 @@ header {
     background: white;
 }
 
-header .logo {
-    color: var(--logo-blue);
-    font-size: 5.5rem;
-    font-weight: bolder;
-    font-style: italic;
-}
-
-header .logo span {
-    color: var(--dark-orange);
-    font-size: 6rem;
-    font-weight: bolder;
-    font-style: italic;
-}
-
-
 header .navbar a {
     color: var(--dark-orange);
     font-weight: bold;
@@ -218,7 +203,7 @@ header.active {
 
 .oksjonid .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(60rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(50rem, 1fr));
     gap: 1.5rem;
 }
 
@@ -228,9 +213,9 @@ header.active {
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     border: var(--logo-blue) solid 2px;
-    align-items: center;
     display: grid;
-    grid-template-columns:  1fr 1fr;
+    grid-template-columns:  50% 50%;
+    align-items: center;
 }
 
 
@@ -247,7 +232,6 @@ header.active {
 
 .oksjonid .box-container .box .sisu {
     height: 100%;
-    text-align: left;
     padding-left: 2rem;
 }
 
@@ -287,7 +271,6 @@ header.active {
 .oksjonid .box-container .box .sisu .aeg span {
     font-size: 2.5rem;
     color: var(--dark-orange);
-    padding:1rem 0;
     font-weight: bolder;
 }
 
@@ -337,10 +320,23 @@ header.active {
     line-height: 1.8;
 }
 
-.footer  .box-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+.footer {
+    background: linear-gradient(to top, rgba(200, 200,200, .7), rgba(240, 240, 240, .5), rgba(255,255,255,0));
+    border-top: var(--logo-blue) solid .7rem;
+}
+
+
+
+.footer .box-container {
+    display: flex;
     gap: 1.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer .box-container .box {
+    text-align: left;
+    flex-grow: 1;
 }
 
 .footer .box-container .box h3{
@@ -349,23 +345,59 @@ header.active {
     padding: 1rem 0;
 }
 
-.footer .box-container .box a{
+.footer .box-container  .box a, .footer .box-container p{
     color: var(--dark-blue);
-    font-size: 1.4rem;
-    display: block;
+    font-size: 2rem;
     padding: 1rem 0;
+}
+
+.footer .box-container p {
+    padding: 0;
+}
+
+.footer .box-container .box a p{
+    display: inline;
 }
 
 .footer .box-container .box a i{
     padding-right: .5rem;
-    color: var(--logo-blue);
 }
 
-.footer .box-container .box a:hover i{
+.footer .box-container .box a p{
+    padding-right: 1.5rem;
+}
+
+.footer .box-container .box a:hover p{
+    padding-right: 0;
+}
+
+.footer .box-container #lingid a:hover i {
     padding-right: 2rem;
 }
 
 
+#footer-logo, #header-logo {
+    color: var(--logo-blue);
+    font-size: 5.5rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#footer-logo span, #header-logo span{
+    color: var(--dark-orange);
+    font-size: 6rem;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#github-konteiner{
+    text-align: right;
+}
+
+#github-konteiner a{
+    font-size: 10rem;
+    color: var(--dark-blue);
+}
 
 
 
