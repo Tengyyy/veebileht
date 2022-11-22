@@ -46,6 +46,11 @@ let swiper = new Swiper(".vehicles_slider", {
     spaceBetween: 20,
     grabCursor: true,
     centeredSlides: true,
+
+    //https://stackoverflow.com/questions/71159693/no-mousewheel-but-do-need-touchpad-support-for-swiperjs
+    mousewheel: {
+        forceToAxis: true
+    },
     loop:true,
     autoplay: {
         delay: 9500,
