@@ -1,69 +1,71 @@
 .content-table {
-border-collapse: collapse;
-margin: 25px 0;
-margin-left: 10%;
-font-size: 0.9em;
-min-width: 400px;
-border-radius: 5px 5px 0 0;
-overflow: hidden;
-box-shadow: 0 0 20px blue
+  border-collapse: collapse;
+  margin: 25px 0;
+  margin-left: 10%;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px blue
 }
 
 .content-table thead tr {
-background-color: blue;
-color: white;
-text-align: justify;
-font-weight: bold;
+  background-color: blue;
+  color: white;
+  text-align: justify;
+  font-weight: bold;
 }
 
 .content-table th,
 .content-table td {
-padding: 25px 25px;
+  padding: 25px 25px;
 }
 
 table {
-border-collapse: collapse;
-width: 100%;
-margin-left: 0%;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: 0%;
 }
 
 th {
-padding: 50px;
-text-align: left;
-font-size: 25px;
-border-bottom: 1px solid #ddd;
+  padding: 50px;
+  text-align: left;
+  font-size: 25px;
+  border-bottom: 1px solid #ddd;
 }
 
 td {
-padding:90px;
-text-align: left;
-font-style: italic;
-font-size: 18px;
-border-bottom: 1px solid #ddd;
+  padding:90px;
+  text-align: left;
+  font-style: italic;
+  font-size: 18px;
+  border-bottom: 1px solid #ddd;
 }
 
 tr:hover {background-color: orange;
-color:white;}
-h1 {
-padding-bottom: 1.5rem;
-margin: 150x 0;
-margin-left: 10%;
-font-size: 3.0rem;
-color: blue;}
+  color:white;}
+  h1 {
+  padding-bottom: 1.5rem;
+  margin: 150x 0;
+  margin-left: 10%;
+  font-size: 3.0rem;
+  color: blue;
+}
 
 p {margin-left:10%;
-font-style:italic;
-font-size:15px;}
+  font-style:italic;
+  font-size:15px;
+}
 
 button {
-font-size: 20px;
-border-radius: 4px;
-border: 2px solid black;
-width: 170px;
-height: 60px;
-background-color: orange;
-color: white;
-text-align: center;
-cursor:pointer;
-font-weight: bolder;
-</style>
+  font-size: 20px;
+  border-radius: 4px;
+  border: 2px solid black;
+  width: 170px;
+  height: 60px;
+  background-color: orange;
+  color: white;
+  text-align: center;
+  cursor:pointer;
+  font-weight: bolder;
+}
