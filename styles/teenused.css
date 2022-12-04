@@ -1,6 +1,11 @@
+
+.home {
+  margin-top: 100px;
+}
+
 .content-table {
   border-collapse: collapse;
-  margin: 100px 0 25px 0;
+  margin: 25px 0;
   margin-left: 10%;
   font-size: 0.9em;
   min-width: 400px;
