@@ -5,71 +5,78 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Autod</title>
-        <link rel="stylesheet" type="text/css" href="../styles/kuulutused.css">
         <link rel="stylesheet" type="text/css" href="../styles/teenused.css">
-        
+        <link rel="stylesheet" type="text/css" href="../styles/üldine.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> 
     </head>
     <body>
-        <div class="hero">
-            <nav>
-                <h2 class="logo"><a href="avaleht.html"><span class="logo_blue">auto</span><span class="logo_orange">25</span><span class="logo_blue">.ee</span></a></h2>
-                <ul>
-                    <li><a href="kuulutused.html">Kuulutused</a></li>
-                    <li><a href="teenused.html">Teenused</a></li>
-                    <li><a href="meist.html">Meist</a></li>
-                </ul>
+        <header>
+
+            <div id="menu_button" class="fas fa-bars"></div>
+
+            <a href="avaleht.html" id="header-logo">auto<span>25</span>.ee</a>
+
+            <nav class="navbar">
+                <a href="teenused.html">Teenused</a>
+                <a href="meist.html">Meist</a>
             </nav>
-        </div>
+        </header>
+
         <section class="home" id="home">
             <h1><br> Tutvu meie teenustega!</h1>
         </section>
-        <button style="position:relative;left: 65%;" onclick="window.history.back()">Eelmisele lehele</button>
-        <table class="content-table"; style="width:65%", style="margin-top:200px;margin-left:400px;">
+        <table class="content-table">
             <thead>
-            <tr>
-                <th>Teenus</th>
-                <th>Kirjeldus</th>
-                <th>Hind</th>
-            </tr>
+                <tr>
+                    <th>Teenus</th>
+                    <th>Kirjeldus</th>
+                    <th>Hind</th>
+                </tr>
             </thead>
-            <tr>
+            <tr class="põhirida">
                 <td>
-                    <a href="#">Liising</a>
-                    </td>
+                    Liising
+                </td>
                 <td>Olgu Su sooviks auto, kaubik, ATV või mootorratas – auto25.ee liising sobib igal juhul.
                     Vali välja sobiv sõiduk ja täida liisingutaotlus veebis, pangakontoris või sõiduki müüja juures. 
-                    Meilt saad kiire pakkumise!</td>
+                    Meilt saad kiire pakkumise!
+                </td>
                 <td>Kuumakse al 100 EUR*<br>
-                    Liisingu intressimäär 1,49%</td>
-
+                    Liisingu intressimäär 1,49%
+                </td>
             </tr>
-            <tr>
+            <tr class="põhirida">
                 <td>
-                   <a href="#">Kindlustus</a></td>
+                   Kindlustus
+                </td>
                 <td>Liikluskindlustus kaitseb Sind, kui tekitad oma sõidukiga teistele kahju.
-                    Õnnetuse korral hüvitab liikluskindlustus Sinu eest kahjud, mis tekkisid keskkonnale, teistele autodele, varale või kellegi tervisele.</td>
+                    Õnnetuse korral hüvitab liikluskindlustus Sinu eest kahjud, mis tekkisid keskkonnale, teistele autodele, varale või kellegi tervisele.
+                </td>
                 <td>
                     Kuumakse al 50 EUR**
                     Küsi personaalset pakkumist
                 </td>
             </tr>
 
-        </td>
-            </tr>
-            <tr>
+            <tr class="põhirida">
                 <td>
-                    <a href="#">Autorent</a>
-                    </td>
-                <td>auto25.ee pakub oma väga hea hinna- ja kvaliteedi suhtega autorenditeenuseid üle Eesti. Me leiame Teile lahenduse, kui vajate abi kas tööalaste ülesannete täitmisel (kaubikute ja tööautode rent), messide ja konverentside külastamiseks, kolimiseks ühest linnast teise, või lihtsalt reisihimu rahuldamiseks.</td>
-                <td>1 päev - 25 EUR <br> 7 päeva - 150 EUR <br>30 päeva - 500 EUR</td>
+                    Autorent
+                </td>
+                <td>auto25.ee pakub oma väga hea hinna- ja kvaliteedi suhtega autorenditeenuseid üle Eesti.
+                     Me leiame Teile lahenduse, kui vajate abi kas tööalaste ülesannete täitmisel (kaubikute ja tööautode rent), messide ja konverentside külastamiseks,
+                      kolimiseks ühest linnast teise, või lihtsalt reisihimu rahuldamiseks.
+                </td>
+                <td>
+                    1 päev - 25 EUR <br> 7 päeva - 150 EUR <br>30 päeva - 500 EUR
+                </td>
             </tr>
 
-            <tr>
+            <tr class="põhirida">
                 <td>
-                    <a href="#">Remont ja hooldus</a>
-                    </td>
+                    Remont ja hooldus
+                </td>
                 <td>
-                    <table style="margin-left:-15px;">
+                    <table class="sub-table">
                         <tr>
                             <td>Parandustööd, remont</td>
                          </tr>
@@ -77,27 +84,72 @@
                             <td>Hooldustööd</td>
                         </tr>
                         <tr>
-                            <td>
-                            Tehniline kontroll</td></tr>
-                       
-                    </table>
-                    
-                    
-                    </td>
+                            <td>Tehniline kontroll</td>
+                        </tr>
+                    </table>  
+                </td>
+
                 <td>
-                    <table style="margin-left:-15px;">
+                    <table class="sub-table">
                         <tr>
                             <td>Küsi pakkumist!***</td>
                         </tr>
-                        <tr><td>al 50 EUR</td></tr>
-                        <tr><td>al 70 EUR</td></tr>
-                     </table>
+                        <tr>
+                            <td>al 50 EUR</td>
+                        </tr>
+                        <tr>
+                            <td>al 70 EUR</td>
+                        </tr>
+                    </table>
+            </tr>
         
         </table>
-        <p>*   Liisingu intressimäär 1,49% kehtib kampaaniapakkumisena vaid keskkonnasõbralikule autole. Intressile lisandub 6 kuu euribor.</p>
-        <p>**  Kindlustuse kuumakse määratakse auto võimsuse, omaniku vanuse, registreeritud elukoha jpt. tegurite põhjal.</p>
-        <p>*** Remondi hind sõltub tööst.</p>
+        <p class="bottom-text">*   Liisingu intressimäär 1,49% kehtib kampaaniapakkumisena vaid keskkonnasõbralikule autole. Intressile lisandub 6 kuu euribor.</p>
+        <p class="bottom-text">**  Kindlustuse kuumakse määratakse auto võimsuse, omaniku vanuse, registreeritud elukoha jpt. tegurite põhjal.</p>
+        <p class="bottom-text">*** Remondi hind sõltub tööst.</p>
         <section class="home" id="home"></section>
+
+        <section class="footer">
+            <div id="ääris"></div>
+            <div class="box-container">
+                <div class="box" id="logo-konteiner">
+                    <a href="avaleht.html" id="footer-logo">auto<span>25</span>.ee</a>
+                    <p>Copyright © 2022 Auto25 OÜ</p>
+                </div>
+
+                <div class="box" id="lingid">
+                    <h3>Kiirlingid</h3>
+
+                    <div>
+                        <a href="avaleht.html"> <i class="fas fa-arrow-right"></i><p>Avaleht</p> </a>
+                    </div>
+
+                    <div>
+                        <a href="teenused.html"> <i class="fas fa-arrow-right"></i><p>Teenused</p></a>
+                    </div>
+
+                    <div>
+                        <a href="meist.html"> <i class="fas fa-arrow-right"></i><p>Meist</p></a>
+                    </div>
+                </div>
+
+                <div class="box" id="kontaktid">
+                    <h3>Kontakt</h3>
+                    <p> <i class="fas fa-phone"></i> +123 55 444 333</p>
+                    <p> <i class="fas fa-envelope"></i> support@auto25.ee</p>
+                    <p> <i class="fa-brands fa-facebook"></i> Auto25 Facebook</p>
+                    <p> <i class="fa-brands fa-instagram"></i> Auto25 Instagram</p>
+                </div>
+
+                <div class="box" id="github-konteiner">
+                    <a href="https://github.com/Tengyyy/veebileht" target="_blank" class="fa-brands fa-github"></a>
+                </div>
+
+            </div>
+
+
+        </section>
         
+        <script src="../js/navbar.js"></script>
     </body>
 </html>

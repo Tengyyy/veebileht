@@ -1,0 +1,51 @@
+
+.sisu{
+    padding-top:100px;
+}
+.sisu p{
+    padding-top: 40px;
+    font-size:16px;
+    line-height:1.5;
+}
+#form-kast {
+    display: block;
+}
+.form-body {
+    margin: 0;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    max-width: 100%;
+    margin-bottom:5rem;
+    margin-top:1rem;
+}
+.form-kast-group {
+    margin-bottom: 1rem;
+    margin-top:1rem;
+}
+.form-input-group {
+    width: 100%;
+}
+.form-kast-control {
+    display: block;
+    width: 100%;
+    height: 2.5rem;
+    line-height: 1.5;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+textarea.form-kast-control {
+    height: auto;
+}
+.form-btn {
+    background: var(--logo-blue);
+    border-color: var(--logo-blue);
+    width: 100%;
+}
+.form-btn:hover {
+    color: #fff;
+    background-color: var(--logo-blue);
+}

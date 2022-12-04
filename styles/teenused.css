@@ -1,16 +1,17 @@
 .content-table {
   border-collapse: collapse;
-  margin: 25px 0;
+  margin: 100px 0 25px 0;
   margin-left: 10%;
   font-size: 0.9em;
   min-width: 400px;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
-  box-shadow: 0 0 20px blue
+  box-shadow: 0 0 20px var(--logo-blue);
+  width: 80%;
 }
 
 .content-table thead tr {
-  background-color: blue;
+  background-color: var(--logo-blue);
   color: white;
   text-align: justify;
   font-weight: bold;
@@ -25,6 +26,10 @@ table {
   border-collapse: collapse;
   width: 100%;
   margin-left: 0%;
+}
+
+.sub-table {
+  margin-left:-15px;
 }
 
 th {
@@ -42,29 +47,16 @@ td {
   border-bottom: 1px solid #ddd;
 }
 
-tr:hover {background-color: orange;
-  color:white;}
-  h1 {
-  padding-bottom: 1.5rem;
-  margin: 150x 0;
-  margin-left: 10%;
-  font-size: 3.0rem;
-  color: blue;
+.põhirida:hover {
+  background: var(--orange);
 }
 
-p {margin-left:10%;
-  font-style:italic;
-  font-size:15px;
-}
-
-button {
-  font-size: 20px;
-  border-radius: 4px;
-  border: 2px solid black;
-  width: 170px;
-  height: 60px;
-  background-color: orange;
+.põhirida:hover td, .põhirida:hover td .sub-table td {
   color: white;
-  text-align: center;
-  cursor:pointer;
-  font-weight: bolder;}
+}
+
+.bottom-text {
+  margin-left: 10%;
+  font-style: italic;
+  font-size: 15px;
+}
